@@ -80,9 +80,29 @@
   </div>
 
   <section style="display:grid;grid-template-columns:minmax(280px,0.85fr) 1.15fr;gap:0;border-bottom:2px solid #201e1d">
-    <div style="border-right:2px solid #201e1d;background:#eae9e9;padding:0;overflow:hidden">
-      <img src="assets/shreyashree.jpg" alt="Shreyashree Dutta" style="display:block;width:100%;height:100%;min-height:360px;object-fit:cover;object-position:50% 22%;filter:grayscale(1) contrast(1.08);transition:filter .5s ease,transform .5s ease" style-hover="filter:none;transform:scale(1.02)">
-    </div>
+   <style>
+  .profile-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-height: 360px;
+    object-fit: cover;
+    object-position: 50% 22%;
+    filter: grayscale(1) contrast(1.08);
+    transition: filter .5s ease, transform .5s ease;
+  }
+
+  .profile-image:hover {
+    filter: none;
+    transform: scale(1.02);
+  }
+   </style> 
+   <div style="border-right:2px solid #201e1d;background:#eae9e9;padding:0;overflow:hidden">
+  <img
+    src="assets/shreyashree.jpg"
+    alt="Shreyashree Dutta"
+    class="profile-image">
+   </div>
     <div style="padding:clamp(28px,4vw,56px)">
       <h2 style="margin:0 0 22px;font-family:'Abril Fatface',serif;font-weight:400;font-size:clamp(30px,4.4vw,58px);line-height:0.95;text-transform:uppercase">A Statistician<br>IN<br><span style="color: rgb(236, 48, 19);">engineering</span></h2>
       <p style="margin:0 0 16px;font-size:17px;max-width:60ch;text-wrap:pretty">I started my PhD in Civil and Systems Engineering at Johns Hopkins in January 2026, after finishing an MSE in Applied Mathematics and Statistics there in December 2025. Before that I studied Statistics at Amity University Kolkata.</p>
